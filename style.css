@@ -1,7 +1,6 @@
 body {
     font-family: 'Asset', cursive;
     font-size: 100px;
-    text-shadow: 4px 4px 4px #aaa;
     background-color: black;
     
     width: 100%;
@@ -11,6 +10,8 @@ body {
 
 body {
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
 }
 
 .cover-container {
@@ -19,11 +20,20 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
 }
+
+p {
+    color: white;
+}
+
+.bg-black {
+    background-color: #000; }
 
 .btn.btn-github {
     background: #000;
-    border-color: #000;
+    border-color: #fff;
     color: #fff; }
     .btn.btn-github:hover, .btn.btn-github:focus {
       color: #000; }
@@ -34,3 +44,17 @@ h1 {
       color: #fff; }
       .btn.btn-github.btn-outline:hover:after, .btn.btn-github.btn-outline:focus:after {
         background: #000; }
+
+.btn.btn-gray {
+    background: #aaa;
+    border-color: #aaa;
+    color: #fff; }
+    .btn.btn-gray:hover, .btn.btn-gray:focus {
+        color: #aaa; }
+        .btn.btn-gray:hover:after, .btn.btn-gray:focus:after {
+        background: #fff; }
+    .btn.btn-gray.btn-outline:hover, .btn.btn-gray.btn-outline:focus {
+        border-color: #aaa;
+        color: #fff; }
+        .btn.btn-gray.btn-outline:hover:after, .btn.btn-gray.btn-outline:focus:after {
+        background: #aaa; }
